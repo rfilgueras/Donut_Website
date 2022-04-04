@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+	background-color: #D9D2BF;
+	width: 1280px;
+	height: 1025px;
+	margin: 0 auto;
+}
+header{
+	background-color: #331A1A;
+	height: 120px;
+	width:1280px;
+	margin: 0 auto;
+}
+#logo{
+	float:right;
+	padding:10px;
+}
+nav {
+	font-family: 'Anton', sans-serif;
+	background-color: #331A1A;
+	padding-top: 80px;
+}
+
+nav li a:link{
+	color: #FFF9DA;
+	text-decoration: none;
+	display: inline;
+}
+
+nav li a:hover{
+	color: #FD9383;
+}
+nav ul li{
+	display: inline;
+	padding-left: 35px;
+	margin-top: 50px;
+	width: 500px;
+}
+nav li a:visited{
+	color:#FDF7D9;
+}
+main{
+	margin:0 auto;
+	width:1280px;
+	height: 860px;
+}
+
+h1 {
+	font-family: 'Krona One', sans-serif;
+	font-size: 3.5em;
+	text-align: center;
+	word-spacing: 2px;
+	color: #FD9383;
+	margin: 0 auto;
+	padding-top: 53px;
+	padding-bottom: 35px;
+	padding-left:100px;
+	padding-right: 100px;
+	background-color:#331A1A;
+	float: left;
+	width:1080px;
+}
+h4 {
+	font-family: 'Krona One', sans-serif;
+	font-size: 4.5em;
+	text-align: center;
+	width: 1280px;
+	color: #FFF9DA;
+	background-color:#331A1A;
+	padding-bottom: 25px;
+	margin: 0px;
+	
+	
+}
+
+
+footer{
+	clear: both;
+	padding: 15px;
+	width: 1250px;
+	height: 15px;
+	background-color: #FD9383;
+	margin: 0 auto;
+	color: #F1F0E0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.9em;
+}
+#clear {
+	clear: both;
+}
